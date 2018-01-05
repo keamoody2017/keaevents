@@ -1,0 +1,72 @@
+body {
+    background-color: lightyellow;
+    padding: 5px;
+    margin: 5px;
+}
+
+
+
+.sectionwrapper {
+    /*parent*/
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.column {
+    /*child*/
+    flex-basis: 400px;
+    flex-grow: 1;
+    align-self: auto;
+
+}
+
+.column img {
+    display: block;
+    margin: 0 auto;
+    width: 70%;
+    transform: rotate(-5deg);
+}
+
+.column1 {
+    /*child*/
+    flex-basis: 400px;
+    flex-grow: 1;
+    align-self: auto;
+    margin: 10px;
+
+}
+
+.column video {
+    display: block;
+    margin: 0 auto;
+
+}
+
+
+
+h1 {
+    font-family: 'Impact', sans-serif;
+    font-size: 3em;
+    text-align: center;
+    display: block;
+}
+
+h2 {
+    font-family: 'Indie Flower', sans-serif;
+    font-size: 2em;
+    text-align: center;
+    display: block;
+}
+
+h3 {
+    font-family: 'Futura', cursive;
+    font-size: 1.2em;
+    text-align: center;
+    display: block;
+}
+
+
+p {
+    font-family: 'Impact', sans-serif;
+    font-size: 1em;
+}
